@@ -14,7 +14,7 @@ def verify_input():
 
 window = Tk()
 window.title("Miles to Kilometres converter")
-window.minsize(width=500, height=300)
+window.minsize(width=200, height=100)
 window.config(padx=100, pady=200)
 
 # miles Label
