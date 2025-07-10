@@ -28,7 +28,7 @@ for hour_data in weather_data["list"]:
 if will_rain:
     client = Client(account_sid, auth_token)
     message = client.messages.create(
-        body="It will rain in Melbourne Victoria in the next 4 hours",
+        body="It will rain in Melbourne Victoria in the next 4 hours :(",
         from_="+16062120104",
         to="+61401795190",
     )
