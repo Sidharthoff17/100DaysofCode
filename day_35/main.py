@@ -1,4 +1,4 @@
-#BY SIDHARTH RAO on 10/7
+#BY SIDHARTH RAO on 10/7 completion of the activity
 import requests
 import os
 from twilio.rest import Client
